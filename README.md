@@ -88,6 +88,11 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 * `wrappers::mysql::db`: Wrapper for `::mysql::db`
 
+##### Wrappers for [derdanne-nfs](https://github.com/derdanne/puppet-nfs)
+
+* `wrappers::nfs::server::export`: Wrapper for `::nfs::server::export`
+* `wrappers::nfs::client::mount`:  Wrapper for `::nfs::client::mount`
+ 
 ##### Wrappers for [puppetlabs-postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql)
 
 * `wrappers::postgresql::server::db`:   Wrapper for `::postgresql::server::db`
