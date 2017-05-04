@@ -84,10 +84,15 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * `wrappers::jenkins::plugin`:     Wrapper for `::jenkins::plugin`
 * `wrappers::jenkins::user`:       Wrapper for `::jenkins::user`
 
+##### Wrappers for [puppet-letsencrypt](https://github.com/voxpupuli/puppet-letsencrypt)
+
+* `wrappers::letsencrypt::config::ini`: Wrapper for `::letsencrypt::config::ini`
+* `wrappers::letsencrypt::certonly`:    Wrapper for `::letsencrypt::certonly`
+
 ##### Wrappers for [thias-libvirt](https://github.com/thias/puppet-libvirt)
 
 * `wrappers::libvirt::network`: Wrappers for `::libvirt::network`
-* `wrappers::libvirt_pool`: Wrapper for `::libvirt_pool`
+* `wrappers::libvirt_pool`:     Wrapper for `::libvirt_pool`
  
 ##### Wrappers for [puppetlabs-mysql](https://forge.puppetlabs.com/puppetlabs/mysql)
 
